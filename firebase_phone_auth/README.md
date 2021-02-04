@@ -1,5 +1,5 @@
 # firebase_phone_auth
 
-Example of usage of Firebase Phone Authentication (configured for **Android only**).
+Implementation of Firebase Phone Authentication (configured for **Android only**).
 
 You can see how to configure firebase [in this tutorial](https://firebase.google.com/docs/flutter/setup).
