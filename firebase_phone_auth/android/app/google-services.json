@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1037645511010",
+    "project_id": "beon-app-master",
+    "storage_bucket": "beon-app-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037645511010:android:1c321c61dff3f2c5d3943b",
+        "android_client_info": {
+          "package_name": "com.example.firebase_phone_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037645511010-jtphrksrfbmnog1gqdl1h9b1l3nvu567.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_phone_auth",
+            "certificate_hash": "06913910628cf7a908c1c8e15c6d51fcb1d28c00"
+          }
+        },
+        {
+          "client_id": "1037645511010-e4sf6rakjl4gnv6dv0nr3mt464ep1b1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4eZ0a71o69T9FQfIEN8X7wKsQ_yyqd7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037645511010-e4sf6rakjl4gnv6dv0nr3mt464ep1b1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
