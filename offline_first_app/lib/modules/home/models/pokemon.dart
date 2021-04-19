@@ -1,18 +1,19 @@
 class Pokemon {
-  String name;
-  String url;
+  final String name;
+  final String url;
 
-  Pokemon({this.name, this.url});
+  Pokemon({
+    required this.name,
+    required this.url,
+  });
 
-  Pokemon.fromJson(Map<String, dynamic> json) {
-    name = json['name'];
-    url = json['url'];
-  }
+  factory Pokemon.fromJson(Map<String, dynamic> json) => Pokemon(
+        name: json["name"],
+        url: json["url"],
+      );
 
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['name'] = this.name;
-    data['url'] = this.url;
-    return data;
-  }
+  Map<String, dynamic> toMap() => {
+        "name": name,
+        "url": url,
+      };
 }
