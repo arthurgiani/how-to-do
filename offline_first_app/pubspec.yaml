@@ -34,6 +34,7 @@ dependencies:
   dio: ^4.0.0
   connectivity: ^3.0.3
   bloc: ^7.0.0
+  flutter_bloc: ^7.0.0
 
 dev_dependencies:
   flutter_test:

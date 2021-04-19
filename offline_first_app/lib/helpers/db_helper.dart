@@ -8,12 +8,10 @@ class DatabaseHelper {
   DatabaseHelper._instance();
 
   static final DatabaseHelper db = DatabaseHelper._instance();
-  static Database _database;
+  late Database _database;
 
   Future<Database> get database async {
-    if (_database == null) {
-      _database = await _initDB();
-    }
+    _database = await _initDB();
 
     return _database;
   }
@@ -22,11 +20,7 @@ class DatabaseHelper {
     Directory directory = await getApplicationDocumentsDirectory();
     String databasePath = directory.path + DATABASE_NAME;
 
-    var db = await openDatabase(
-      databasePath,
-      version: 1,
-      onCreate: _onCreate
-      );
+    var db = await openDatabase(databasePath, version: 1, onCreate: _onCreate);
     return db;
   }
 
