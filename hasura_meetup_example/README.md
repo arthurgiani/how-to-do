@@ -1,16 +1,13 @@
 # hasura_meetup_example
 
-A new Flutter project.
+Flutter project to demonstrate the integration between Flutter and [Hasura](https://hasura.io/) using the [Hasura Connect package](https://pub.dev/packages/hasura_connect).
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This app was made for a presentation at [Flutterando](https://www.youtube.com/user/jacobaraujo7), the biggest Brazillian Flutter community on youtube. It covers queries and subscriptions with filters using the change variable method. You can see the presentation clicking [here](https://www.youtube.com/watch?v=XtrEq55EFC4&t=541s).
 
-A few resources to get you started if this is your first Flutter project:
+## Steps
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ - [Deploy a hasura server](https://hasura.io/docs/latest/graphql/core/deployment/deployment-guides/heroku.html)
+ - [Create a table called "employees" with two columns: id (integer auto-increment) and name (text)](https://hasura.io/docs/latest/graphql/core/databases/postgres/schema/tables.html)
+ - Run the project and set the **HASURA URL** and **HASURA ADMIN SECRET** in it.
